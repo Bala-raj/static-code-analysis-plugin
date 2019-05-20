@@ -162,7 +162,7 @@ class PmdConfigurator implements AnalysisConfigurator, ClasspathAware {
                 it.reports { PmdReports r ->
                     r.with {
                         configureXmlReport(xml, project, sourceSetName)
-                        html.enabled = false
+                        // html.enabled = false
                     }
                 }
             }
